@@ -525,7 +525,7 @@ graph TB
             G[🔗 Service Bus - Events]
         end
         
-        subgraph "Spoke 2: Retail - 10.0.6.0/23"
+        subgraph "Grok: Retail - 10.0.6.0/23"
             H[⚙️ AKS Cluster - Retail Apps]
             I[🗄️ Cosmos DB - Customer Data]
             J[🔌 API Management]
@@ -539,7 +539,6 @@ graph TB
     C --> E
     C --> H
     
-    style subgraph fill:#f5f5f5
     style A fill:#d32f2f,color:white
     style E fill:#1976d2,color:white
     style H fill:#388e3c,color:white
